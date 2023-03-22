@@ -102,7 +102,8 @@ Install this project with:
 ### Usage
 
 
-To run the project, Click on the live Demo link
+To run the project, Clone the repository from github,
+Navigate to the folder on the command line and run "npm start" to deploy it in the browser
 
 ### Run tests
 

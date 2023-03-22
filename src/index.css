@@ -1,27 +1,64 @@
-body {
+* {
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+body {
+  padding: 30% 10%;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 70%;
+  background-color: rgb(196, 196, 196);
+}
+
+.keys {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+}
+
+input {
+  width: 100%;
+  height: 4rem;
+  text-align: right;
+  padding: 0.8rem;
+  background-color: grey;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.keys button {
+  height: 3rem;
+  padding: 0.8rem 1rem;
+  border: none;
+}
+
+.keys button:nth-child(17) {
+  grid-column: 1 / span 2;
+}
+
+.keys button:nth-child(4n + 0),
+.keys button:nth-child(19) {
+  background-color: #f67c18;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 10% 35%;
+  }
+
+  .container {
+    height: 100%;
+  }
 }
