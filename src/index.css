@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -47,8 +47,9 @@ input::placeholder {
   border: none;
   transition: 0.5s;
 }
+
 .keys button:hover {
-background-color: #f67c18;
+  background-color: #f67c18;
 }
 
 .keys button:nth-child(17) {
@@ -61,27 +62,30 @@ background-color: #f67c18;
 }
 
 .parent {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin: 3rem auto auto 30%;
+  margin: 3rem auto auto 35%;
 }
 
-.rotateright,.rotateleft {
-  height: 1rem;
-  width: 4rem;
-  background: #f67c18;
-  animation: rotate infinite 2s;
+.new {
+  border: 8px solid white;
+  border-top: 8px #f67c18 solid;
+  border-bottom: 8px #f67c18 solid;
+  height: 70px;
+  width: 100px;
+  border-radius: 50%;
+  animation: rotate 2s infinite;
 }
+
 @keyframes rotate {
   to {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
+
 .rotateright {
   border-top-right-radius: 50% 50%;
   border-top-left-radius: 50% 50%;
 }
+
 .rotateleft {
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
@@ -91,8 +95,9 @@ background-color: #f67c18;
   body {
     padding: 10% 35%;
   }
-  
-  .rotateright,.rotateleft {
+
+  .rotateright,
+  .rotateleft {
     height: 1.5rem;
     width: 6rem;
   }

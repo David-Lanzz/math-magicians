@@ -29,8 +29,7 @@ const Getquotes = () => {
   if (isLoading && !showError) {
     return (
       <div className="parent">
-        <div className="rotateright" />
-        <div className="rotateleft" />
+        <div className="new" />
       </div>
     );
   }
