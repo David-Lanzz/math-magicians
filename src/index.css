@@ -70,7 +70,7 @@ input::placeholder {
   border-top: 8px #f67c18 solid;
   border-bottom: 8px #f67c18 solid;
   height: 70px;
-  width: 100px;
+  width: 4rem;
   border-radius: 50%;
   animation: rotate 2s infinite;
 }
