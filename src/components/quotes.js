@@ -27,7 +27,12 @@ const Getquotes = () => {
   },
   [changeQuote]);
   if (isLoading && !showError) {
-    return (<div>Loading...</div>);
+    return (
+      <div className="parent">
+        <div className="rotateright" />
+        <div className="rotateleft" />
+      </div>
+    );
   }
   if (showError) {
     return (<div>Sorry, cannot reach server</div>);
