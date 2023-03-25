@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
 }
 
 body {
@@ -42,6 +45,10 @@ input::placeholder {
   height: 3rem;
   padding: 0.8rem 1rem;
   border: none;
+  transition: 0.5s;
+}
+.keys button:hover {
+background-color: #f67c18;
 }
 
 .keys button:nth-child(17) {
@@ -53,9 +60,41 @@ input::placeholder {
   background-color: #f67c18;
 }
 
+.parent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 3rem auto auto 30%;
+}
+
+.rotateright,.rotateleft {
+  height: 1rem;
+  width: 4rem;
+  background: #f67c18;
+  animation: rotate infinite 2s;
+}
+@keyframes rotate {
+  to {
+      transform: rotate(360deg);
+  }
+}
+.rotateright {
+  border-top-right-radius: 50% 50%;
+  border-top-left-radius: 50% 50%;
+}
+.rotateleft {
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
 @media screen and (min-width: 768px) {
   body {
     padding: 10% 35%;
+  }
+  
+  .rotateright,.rotateleft {
+    height: 1.5rem;
+    width: 6rem;
   }
 
   .container {
