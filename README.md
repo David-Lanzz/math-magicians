@@ -24,16 +24,16 @@ to
 - [📝 License](#license)
 
 
-npx stylelint "**/*.{css,scss}"
 
 # 📖 [MY-REACT-APP] <a name="about-project"></a>
 
 > 
 **MY-REACT-APP** is a project i worked to learn how to create a react app from scratch.
 
-## 🛠 Built With <a name="built-with">Visual Studio Code and Github</a>
+## 🛠 Built With 
+<p>Visual Studio Code and Github</p>
 
-### Tech Stack <a name="tech-stack">Frontend Technology</a>
+### Tech Stack
 
 > The Tech stack used in this project is the frontend technology and it consists of just the index.html,scipt.js and styles.css and webpack files
 
@@ -134,7 +134,7 @@ githack and github pages
 - Twitter: [@twitterhandle](https://twitter.com/LanzzDavid?t=kXE0OTqpJgBGFB3qreLwNg&s=09)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/lanzz-david-378b9a250)
 
-👤
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
