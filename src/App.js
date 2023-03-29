@@ -4,6 +4,7 @@ import Home from './routes/Home';
 import Quotes from './routes/Quotes';
 import CalculatorPage from './routes/Calculator';
 import Headerpage from './routes/Header';
+import Notfound from './routes/Notfound';
 
 const App = () => (
   <div>
@@ -12,6 +13,7 @@ const App = () => (
         <Route index element={<Home />} />
         <Route path="quote" element={<Quotes />} />
         <Route path="calculator" element={<CalculatorPage />} />
+        <Route path="*" element={<Notfound />} />
       </Route>
     </Routes>
   </div>

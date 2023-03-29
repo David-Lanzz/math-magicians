@@ -1,8 +1,8 @@
 import Getquotes from '../components/quotes';
-import styles from '../components/styles/Quotes.module.css';
+import '../components/styles/Quotes.css';
 
 const Quotes = () => (
-  <div className={styles.get}>
+  <div className="get">
     <Getquotes />
   </div>
 );

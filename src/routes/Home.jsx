@@ -1,8 +1,8 @@
 import Homecontent from '../components/homecontent';
-import styles from '../components/styles/Home.module.css';
+import '../components/styles/Home.css';
 
 const Home = () => (
-  <div className={styles.Home}>
+  <div className="Home">
     <h3>Welcome to our page!</h3>
     <Homecontent />
   </div>

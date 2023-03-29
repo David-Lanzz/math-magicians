@@ -1,11 +1,11 @@
-.body {
+.body1 {
   display: grid;
   grid-template-columns: 1fr;
   padding: 4% 10%;
 }
 
 @media screen and (min-width: 768px) {
-  .body {
+  .body1 {
     grid-template-columns: 1fr 2fr;
     padding: 4% 10%;
   }

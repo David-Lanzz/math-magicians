@@ -1,8 +1,8 @@
 import Calculator from '../components/Calculator';
-import styles from '../components/styles/Calculator.module.css';
+import '../components/styles/Calculator.css';
 
 const CalculatorPage = () => (
-  <div className={styles.body}>
+  <div className="body1">
     <h3>Let&#39;s do some Math!</h3>
     <Calculator />
   </div>

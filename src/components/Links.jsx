@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import styles from './styles/Links.module.css';
+import './styles/Links.css';
 
 const Links = () => {
   const links = [
@@ -8,11 +8,11 @@ const Links = () => {
     { path: 'quote', text: 'quote' },
   ];
   return (
-    <ul className={styles.ul}>
+    <ul className="ul">
       {links.map((element) => (
         <li key={element.text}>
           <NavLink
-            className={styles.anchor}
+            className="anchor"
             to={element.path}
           >
             {element.text}

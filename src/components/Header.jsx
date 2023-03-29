@@ -1,9 +1,9 @@
 import Links from './Links';
-import styles from './styles/Header.module.css';
+import './styles/Header.css';
 
 const Header = () => (
-  <div className={styles.body}>
-    <h1 className={styles.h1}>Math Magicians</h1>
+  <div className="body">
+    <h1 className="h1">Math Magicians</h1>
     <Links />
   </div>
 );
