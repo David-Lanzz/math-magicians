@@ -1,0 +1,21 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.Home h3 {
+  font-size: 1.5rem;
+}
+
+.Home p {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .Home {
+    padding: 4% 10%;
+    text-align: start;
+  }
+}
