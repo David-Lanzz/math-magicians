@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All components tests correct snapshot for  1`] = `
+<div
+  className="body1"
+>
+  <h3>
+    Let's do some Math!
+  </h3>
+  <div
+    className="container"
+  >
+    <input
+      placeholder="  "
+      readOnly={true}
+      type="text"
+    />
+    <div
+      className="keys"
+    >
+      <button
+        id={0}
+        name="AC"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        id={1}
+        name="+/-"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        id={2}
+        name="%"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        id={3}
+        name="÷"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        id={4}
+        name={7}
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        id={5}
+        name={8}
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        id={6}
+        name={9}
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        id={7}
+        name="x"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        id={8}
+        name={4}
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        id={9}
+        name={5}
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        id={10}
+        name={6}
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        id={11}
+        name="-"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        id={12}
+        name={1}
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        id={13}
+        name={2}
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        id={14}
+        name={3}
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        id={15}
+        name="+"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        id={16}
+        name={0}
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        id={17}
+        name="."
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        id={18}
+        name="="
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`All components tests correct snapshot for  2`] = `
+<h2>
+  The page you're looking for does not exist...
+</h2>
+`;
+
+exports[`All components tests correct snapshot for  3`] = `
+<div
+  className="Home"
+>
+  <h3>
+    Welcome to our page!
+  </h3>
+  <div>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos architecto cum voluptas esse consequatur optio maxime molestiae, nihil incidunt temporibus iste asperiores praesentium sapiente. Ut quisquam nulla dignissimos officia temporibus.
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam dicta inventore neque, officiis culpa error eveniet minus, veniam reprehenderit rerum quasi commodi iusto animi ab quis eaque delectus illum nam!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`All components tests correct snapshot for  4`] = `
+<div
+  className="get"
+>
+  <div>
+    <p />
+  </div>
+</div>
+`;
