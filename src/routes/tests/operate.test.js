@@ -42,4 +42,3 @@ describe('Tests for operate.js', () => {
     expect(() => operate(2, 2, '#')).toThrow();
   });
 });
-
